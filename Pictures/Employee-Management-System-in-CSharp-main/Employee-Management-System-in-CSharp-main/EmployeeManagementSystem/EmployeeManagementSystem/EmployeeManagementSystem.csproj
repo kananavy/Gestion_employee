@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C7DAF6B-9712-48EE-B405-C746F1E3043D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EmployeeManagementSystem</RootNamespace>
+    <AssemblyName>EmployeeManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseWinFormsOutOfProcDesigner>True</UseWinFormsOutOfProcDesigner>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseWinFormsOutOfProcDesigner>True</UseWinFormsOutOfProcDesigner>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>EmployeeManagementSystem.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.AddIn.Contract" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Desing\ProfilInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Desing\ProfilInfo.Designer.cs">
+      <DependentUpon>ProfilInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaire\Addprint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaire\Addprint.Designer.cs">
+      <DependentUpon>Addprint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desing\AddEmployee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Desing\AddEmployee.Designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\CongeData1.cs" />
+    <Compile Include="Desing\Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Desing\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desing\DemandeConge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Desing\DemandeConge.Designer.cs">
+      <DependentUpon>DemandeConge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Depart.cs" />
+    <Compile Include="Desing\Departement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Desing\Departement.Designer.cs">
+      <DependentUpon>Departement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\EmployeeData.cs" />
+    <Compile Include="Dataset\employeeeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>employeeeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaire\Bienvenue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaire\Bienvenue.Designer.cs">
+      <DependentUpon>Bienvenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaire\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaire\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaire\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaire\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desing\Poste.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Desing\Poste.Designer.cs">
+      <DependentUpon>Poste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\PosteData.cs" />
+    <Compile Include="Data\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Desing\Salary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Desing\Salary.Designer.cs">
+      <DependentUpon>Salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SalaryData.cs" />
+    <Compile Include="Desing\TimeOff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Desing\TimeOff.Designer.cs">
+      <DependentUpon>TimeOff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaire\RegisterForme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaire\RegisterForme.Designer.cs">
+      <DependentUpon>RegisterForme.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Desing\AddEmployee.resx">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desing\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desing\DemandeConge.resx">
+      <DependentUpon>DemandeConge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desing\Departement.resx">
+      <DependentUpon>Departement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desing\ProfilInfo.resx">
+      <DependentUpon>ProfilInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaire\Addprint.resx">
+      <DependentUpon>Addprint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaire\Bienvenue.resx">
+      <DependentUpon>Bienvenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaire\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaire\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desing\Poste.resx">
+      <DependentUpon>Poste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Desing\Salary.resx">
+      <DependentUpon>Salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desing\TimeOff.resx">
+      <DependentUpon>TimeOff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaire\RegisterForme.resx">
+      <DependentUpon>RegisterForme.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Dataset\employeeeDataSet.xsc">
+      <DependentUpon>employeeeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\employeeeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>employeeeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Dataset\employeeeDataSet.xss">
+      <DependentUpon>employeeeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\AddEmployee.datasource" />
+    <None Include="Properties\DataSources\CongeData1.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\yes.png" />
+    <None Include="Assets\un-salaire.png" />
+    <None Include="Assets\table-de-travail.png" />
+    <None Include="Assets\tableau-de-bord.png" />
+    <None Include="Assets\sx.png" />
+    <None Include="Assets\supprimer.png" />
+    <None Include="Assets\profil.png" />
+    <None Include="Assets\mot-de-passe.png" />
+    <None Include="Assets\liste-de-controle.png" />
+    <None Include="Assets\jour-de-conge.png" />
+    <None Include="Assets\imprimante.png" />
+    <None Include="Assets\ajouter.png" />
+    <None Include="Assets\ajouter-un-utilisateur.png" />
+    <None Include="Assets\apercu.png" />
+    <None Include="Assets\bouton-modifier.png" />
+    <None Include="Assets\effacer.png" />
+    <None Include="Assets\effacerh.png" />
+    <None Include="Assets\endroit-de-travail.png" />
+    <None Include="Assets\icons8-closet-64.png" />
+    <Content Include="Assets\icons8_commercial_development_management_60px.png" />
+    <Content Include="Assets\icons8_dashboard_30px.png" />
+    <Content Include="Assets\icons8_employee_card_100px.png" />
+    <Content Include="Assets\icons8_employee_card_30px.png" />
+    <Content Include="Assets\icons8_employee_card_60px_1.png" />
+    <Content Include="Assets\icons8_group_background_selected_60px.png" />
+    <Content Include="Assets\icons8_group_background_selected_filled_60px.png" />
+    <Content Include="Assets\icons8_logout_rounded_up_filled_25px.png" />
+    <Content Include="Assets\icons8_Salary_male_30px.png" />
+    <None Include="Resources\Untitled-1.gif" />
+    <None Include="Resources\mysql.png" />
+    <None Include="Resources\pexels-jane-doan-1024248.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Directory\" />
+    <Folder Include="Repport\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Win32.SystemEvents">
+      <Version>6.0.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\coverlet.collector.6.0.0\build\netstandard1.0\coverlet.collector.targets" Condition="Exists('..\packages\coverlet.collector.6.0.0\build\netstandard1.0\coverlet.collector.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
+    </PropertyGroup>
+    <!--<Error Condition="!Exists('..\packages\coverlet.collector.6.0.0\build\netstandard1.0\coverlet.collector.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\coverlet.collector.6.0.0\build\netstandard1.0\coverlet.collector.targets'))" />
+ -->
+  </Target>
+</Project>

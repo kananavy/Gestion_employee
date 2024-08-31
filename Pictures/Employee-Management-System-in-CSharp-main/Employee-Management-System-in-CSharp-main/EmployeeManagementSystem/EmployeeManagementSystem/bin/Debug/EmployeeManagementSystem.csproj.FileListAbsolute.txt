@@ -1,0 +1,50 @@
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe.config
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.pdb
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Form1.resources
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Properties.Resources.resources
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.GenerateResource.cache
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.RegisterForm.resources
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.MainForm.resources
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.AddEmployee.resources
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Dashboard.resources
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Salary.resources
+C:\Users\WINDOWS 10\source\repos\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.AssemblyReference.cache
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.AssemblyReference.cache
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.AddEmployee.resources
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Dashboard.resources
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.DemandeConge.resources
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Departement.resources
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Form1.resources
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.MainForm.resources
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Poste.resources
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Properties.Resources.resources
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Salary.resources
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.TimeOff.resources
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Resources.RegisterForm.resources
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.GenerateResource.cache
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe
+C:\Users\kananavy\Desktop\STAGE OK\PROJET VITA\PROJET AVEC VERSION\Projet v2.0\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.AssemblyReference.cache
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.AddEmployee.resources
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Dashboard.resources
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.DemandeConge.resources
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Departement.resources
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Form1.resources
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.MainForm.resources
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Poste.resources
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Properties.Resources.resources
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Salary.resources
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.TimeOff.resources
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Resources.RegisterForm.resources
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.GenerateResource.cache
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe.config
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.exe
+C:\Users\kananavy\Downloads\ok\EmployeeManagementSystem\bin\Debug\EmployeeManagementSystem.pdb
